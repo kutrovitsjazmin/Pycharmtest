@@ -1,3 +1,4 @@
+
 def read_astronaut_data(file_path):
     astronauts_data = []
     with open(file_path, 'r') as file:
