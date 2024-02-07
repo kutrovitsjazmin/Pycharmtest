@@ -29,7 +29,7 @@ def display_top_months(birth_months_count):
 
 
 def main():
-    file_path = "astronauts.csv.csv"
+    file_path = "astronauts.csv"
     astronauts_data = read_astronaut_data(file_path)
     birth_months_count = count_birth_months(astronauts_data)
     display_top_months(birth_months_count)
